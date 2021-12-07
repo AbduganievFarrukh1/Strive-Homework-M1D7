@@ -1,3 +1,9 @@
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
 td,
 th {
   border: 1px solid rgb(190, 190, 190);
@@ -6,6 +12,7 @@ th {
 
 td {
   text-align: center;
+  background-color: #d8af29;
 }
 
 tr:nth-child(even) {
@@ -13,12 +20,13 @@ tr:nth-child(even) {
 }
 
 th[scope="col"] {
-  background-color: #696969;
-  color: #fff;
+  background-color: #26c5a3;
+  color: #111;
+  text-decoration: solid;
 }
 
 th[scope="row"] {
-  background-color: #d7d9f2;
+  background-color: #77b415;
 }
 
 caption {
@@ -32,4 +40,19 @@ table {
   letter-spacing: 1px;
   font-family: sans-serif;
   font-size: 0.8rem;
+}
+.item img:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+#bar {
+  height: 45%;
+  width: 100%;
+}
+
+table.BarTable,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  line-height: 0;
 }

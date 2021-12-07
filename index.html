@@ -9,43 +9,77 @@
   </head>
   <body>
     <h1>Welcome to FrankShop</h1>
-    <table>
-      <tr>
-        <th scope="col">Images</th>
-        <th scope="col">Product name</th>
-        <th scope="col">Description</th>
-        <th scope="col">Price</th>
-      </tr>
-      <tr>
-        <th><img src="images/macbook.jpg" alt="" /></th>
-        <td>MacBook</td>
-        <td>Lates Macbook Pro</td>
-        <td>2500$</td>
-      </tr>
-      <tr>
-        <th><img src="images/ipad.jpg" alt="" /></th>
-        <td>Ipad</td>
-        <td>Ipad Pro 11</td>
-        <td>1200$</td>
-      </tr>
-      <tr>
-        <th><img src="images/iphone.jpg" alt="" /></th>
-        <td>Iphone</td>
-        <td>New Iphone 13 Pro</td>
-        <td>1500$</td>
-      </tr>
-      <tr>
-        <th><img src="images/iwatch.jpg" alt="" /></th>
-        <td>Iwatch</td>
-        <td>Iwatch series 7</td>
-        <td>500$</td>
-      </tr>
-      <tr>
-        <th><img src="images/airpods.jpg" alt="" /></th>
-        <td>Airpods</td>
-        <td>Airpods Pro</td>
-        <td>300$</td>
-      </tr>
-    </table>
+    <div id="bar">
+      <table class="BarTable" style="width: 100%; height: 100%">
+        <tr>
+          <td style="width: 35%">
+            <tr>
+              <th scope="col">Images</th>
+              <th scope="col">Product name</th>
+              <th scope="col">Description</th>
+              <th scope="col">Price</th>
+            </tr>
+            <tr>
+              <th>
+                <img
+                  class="item"
+                  src="images/macbook.jpg"
+                  style="height: 100%; width: 100%"
+                />
+              </th>
+              <td>MacBook</td>
+              <td>Lates Macbook Pro</td>
+              <td>
+                <a
+                  href="https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-space-gray-8-core-cpu-14-core-gpu-512gb#"
+                >
+                  2500$</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <th><img class="item" src="images/ipad.jpg" alt="" /></th>
+              <td>Ipad</td>
+              <td>Ipad Pro 11</td>
+              <td>
+                <a href="https://www.apple.com/shop/buy-ipad/ipad-10-2">700$</a>
+              </td>
+            </tr>
+            <tr>
+              <th><img class="item" src="images/iphone.jpg" alt="" /></th>
+              <td>Iphone</td>
+              <td>New Iphone 13 Pro</td>
+              <td>
+                <a href="https://www.apple.com/shop/buy-iphone/iphone-13-pro">
+                  2500$</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <th><img src="images/iwatch.jpg" alt="" /></th>
+              <td>Iwatch</td>
+              <td>Iwatch series 7</td>
+              <td>
+                <a href="https://www.apple.com/shop/buy-watch/apple-watch">
+                  500$</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <th><img class="item" src="images/airpods.jpg" alt="" /></th>
+              <td>Airpods</td>
+              <td>Airpods Pro</td>
+              <td>
+                <a
+                  href="https://www.apple.com/shop/product/MME73AM/A/airpods-3rd-generation"
+                >
+                  300$</a
+                >
+              </td>
+            </tr>
+          </td>
+        </tr>
+      </table>
+    </div>
   </body>
 </html>
