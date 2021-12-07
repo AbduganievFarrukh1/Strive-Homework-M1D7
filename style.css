@@ -17,7 +17,7 @@ th {
 
 td {
   text-align: center;
-  background-color: #d8af29;
+  /*background-color: #d8af29;*/
 }
 
 tr:nth-child(even) {
